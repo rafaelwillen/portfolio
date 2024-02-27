@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.tsx"],
   theme: {
     extend: {},
+    fontFamily: {
+      main: ["Fira Code", "monospace"],
+    },
     colors: {
       primary: {
         blackPearl: "#01080E",
@@ -23,6 +26,13 @@ export default {
       white: "#fff",
       black: "#000",
       transparent: "transparent",
+    },
+    fontSize: {
+      headline: "3.875rem",
+      subHeadline: "2rem",
+      body: "1.125rem",
+      label: "1rem",
+      code: "0.875rem",
     },
   },
   plugins: [
